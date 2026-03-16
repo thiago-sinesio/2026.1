@@ -6,9 +6,9 @@ using namespace std;
 
 int main() {
     int num;
-    cout<<"Digite um numero: ";
-    cin>>num;
-
-    cout<< num << " elevado ao quadrado é: " << num * num << endl;
+    cout << "Digite um numero: ";
+    cin >> num;
+    
+    cout << num << " elevado ao quadrado é: " << num * num << endl;
     return 0;
 }
