@@ -8,8 +8,8 @@ int main() {
     cout<<"Digite um numero: ";
     cin>>num;
     
-    cout<< "Número anterior: " << --num << endl;
-    cout<< "Número posterior: " << num+2 << endl;
+    cout<< "Número anterior: " << num - 1<< endl;
+    cout<< "Número posterior: " << num + 1 << endl;
 
     return 0;
 }
