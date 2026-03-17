@@ -5,11 +5,11 @@
 using namespace std;
 
 int main() {
-    int num;
+    int ano;
     cout<<"Informe seu ano de nascimento: ";
     cin>>num;
     
-    if ((2026 - num) >= 16){
+    if ((2026 - ano) >= 16){
         cout<<"Pode votar.";
     } else {
         cout<<"Não pode votar.";
