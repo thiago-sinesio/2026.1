@@ -10,7 +10,7 @@ float calcular(float a, float b, int op) {
     if (op == 2) return a - b;
     if (op == 3) return a * b;
     if (op == 4 && b != 0) return a / b;
-    return 0; // Caso base
+    return 0;
 }
 
 int main() {
