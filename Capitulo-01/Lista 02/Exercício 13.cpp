@@ -5,48 +5,28 @@
 #include <iostream>
 using namespace std;
 
+float calcular(float a, float b, int op) {
+    if (op == 1) return a + b;
+    if (op == 2) return a - b;
+    if (op == 3) return a * b;
+    if (op == 4 && b != 0) return a / b;
+    return 0; // Caso base
+}
+
 int main() {
-    int i, num1, num2;
-    cout<<"Calculadora: \n 1- Soma\n 2- Subtração\n 3- Multiplicação\n 4- Divisão" << endl;
+    int op;
+    float num1, num2;
+
+    cout << "Calculadora:\n1- Soma\n2- Subtração\n3- Multiplicação\n4- Divisão\nOpção: ";
+    cin >> op;
     cout<<"=================="<< endl;
-    cin>>i;
-    
-    switch(i){
-        case 1:
-            cout<<"\n1 - Soma"<<endl;
-            cout<<"Digite o primeiro numero: ";
-            cin>>num1;
-            cout<<"Digite o segundo numero: ";
-            cin>>num2;
-            cout<< num1 << " + " <<num2 << " = " <<num1 + num2;
-            break;
-        case 2:
-            cout<<"\n2 - Subtração"<<endl;
-            cout<<"Digite o primeiro numero: ";
-            cin>>num1;
-            cout<<"Digite o segundo numero: ";
-            cin>>num2;
-            cout<< num1 << " - " <<num2 << " = " <<num1 - num2;
-            break;
-        case 3:
-            cout<<"\n3 - Multiplicação"<<endl;
-            cout<<"Digite o primeiro numero: ";
-            cin>>num1;
-            cout<<"Digite o segundo numero: ";
-            cin>>num2;
-            cout<< num1 << " * " <<num2 << " = " <<num1 * num2;
-            break;
-        case 4:
-            cout<<"\n4 - Divisão"<<endl;
-            cout<<"Digite o primeiro numero: ";
-            cin>>num1;
-            cout<<"Digite o segundo numero: ";
-            cin>>num2;
-            cout<< num1 << " / " <<num2 << " = " <<num1 / num2;
-            break;
-        default:
-            cout<<"Não é uma operação válida." << endl;
-            break;
-    } 
+
+    if (op < 1 || op > 4) {
+        cout << "Operação inválida!" << endl;
+    } else {
+        cout << "Digite os valores: ";
+        cin >> num1 >> num2;
+        cout << "Resultado: " << calcular(num1, num2, op) << endl;
+    }
     return 0;
 }
