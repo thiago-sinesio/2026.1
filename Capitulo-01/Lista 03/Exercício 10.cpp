@@ -17,6 +17,7 @@ int main() {
             positivos++;
         }
     }
+
     cout << "Quantidade de numeros positivos: " << positivos << endl;
     
     return 0;
