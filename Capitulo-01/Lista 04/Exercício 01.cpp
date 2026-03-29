@@ -11,7 +11,6 @@ int main() {
         cout << "Digite um numero: ";
         cin >> numeros[i];
     }
-
     for (int i = 0; i < 10; i++) {
         if (numeros[i] > 0) {
             soma += numeros[i];
