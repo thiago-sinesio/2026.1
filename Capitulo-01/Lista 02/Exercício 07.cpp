@@ -13,7 +13,7 @@ int main() {
     if (num >= 60){
         cout<<"Aprovado.";
     } else if(num >= 40){
-        cout<<"Recuperação";
+        cout<<"Em Recuperação.";
     } else{
         cout<<"Reprovado.";
     }
