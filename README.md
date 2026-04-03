@@ -95,6 +95,20 @@ Neste primeiro capítulo, os exercícios focam na lógica de programação estru
 -    **10.** Crie uma `struct` Produto com nome, preço e quantidade. Calcule e exiba o valor total em estoque. Usar função `getline`.
 </details>
 
+<details>
+<summary><strong>Lista 06 - Funções</strong></summary><br>
+
+-  **1.**  Crie uma função que receba um número inteiro e retorne seu quadrado. O programa deve solicitar um número ao usuário e exibir o resultado do quadrado.
+-    **2.** Implemente uma função que converta temperaturas de Celsius para Fahrenheit. O usuário digita a temperatura em Celsius e o programa exibe o valor em Fahrenheit.
+-    **3.** Crie uma função que receba duas notas e retorne a média. O usuário informa duas notas e o programa mostra a média final.
+-    **4.** Faça uma função que verifique se um número é par. O programa deve informar ao usuário se o número digitado é par ou ímpar.
+-    **5.** Crie uma `struct` Pessoa com nome e idade, e um método que exiba uma saudação personalizada. Leia os dados de uma pessoa, e use o método para exibir a mensagem.
+-    **6.** Crie uma função que dobre o valor de um número inteiro usando passagem por referência.
+-    **7.** Crie uma função que troque os valores de duas variáveis usando passagem por referência.
+-    **8.** Uma função deve calcular a média de 3 valores e armazenar o resultado em uma variável passada por referência.
+-    **9.** Faça uma função que receba um número inteiro e incremente ele em 1 (por referência).
+-    **10.** Crie uma `struct` ContaBancaria com titular e saldo. A `struct` deve ter um método para depósito. Leia os dados, deposite um valor usando uma função com passagem por referência e exiba o saldo final.
+</details>
 
 ## 📘 Capítulo 2 - Programação Orientada a Objetos
 
