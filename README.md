@@ -94,3 +94,9 @@ Neste primeiro capítulo, os exercícios focam na lógica de programação estru
 -    **9.** Leia os dados de 3 alunos (nome e nota) e exiba os que tiraram nota >= 7. Usar função `getline` e `cin.ignore`.
 -    **10.** Crie uma `struct` Produto com nome, preço e quantidade. Calcule e exiba o valor total em estoque. Usar função `getline`.
 </details>
+
+
+## 📘 Capítulo 2 - Programação Orientada a Objetos
+
+<details>
+<summary><strong>Lista 01 - </strong></summary><br>
