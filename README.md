@@ -113,4 +113,13 @@ Neste primeiro capítulo, os exercícios focam na lógica de programação estru
 ## 📘 Capítulo 2 - Programação Orientada a Objetos
 
 <details>
-<summary><strong>Lista 01 - </strong></summary><br>
+<summary><strong>Lista 01 - Classes, Objetos, Atributos e Métodos </strong></summary><br>
+
+
+-  **1.**  Crie uma classe Retangulo com atributos largura e altura e um método que calcule a área. No main, leia os valores e mostre o resultado.
+-  **2.**  Crie uma classe Aluno com atributos nome e nota. Crie um método que exiba se o aluno está aprovado (nota >= 6) ou reprovado. Pesquise função de entrada de dados na biblioteca <string>.
+-  **3.**  Crie uma classe Produto com atributos nome, preco e quantidade. Crie um método que calcule o valor total em estoque.
+-  **4.**  Crie uma classe Carro com atributos marca e velocidade. Crie métodos para acelerar (aumentar a velocidade) e frear (diminuir a velocidade).
+-  **5.**  Crie uma classe Conversor com um método estático converter que recebe um valor em dólares e uma taxa de conversão, e retorna o valor em reais.
+-  **6.**  Crie uma classe Conversor com atributos valor e taxa. Adicione um método estático converter que recebe valor e taxa e retorna o valor convertido. No main, peça ao usuário o valor e a taxa, e mostre o valor convertido usando o método estático.
+-  **7.**  Crie uma classe Temperatura com atributos cidade e valor (Celsius) e um método estático celsiusParaFahrenheit. No main, leia a cidade e a temperatura e mostre o valor em Fahrenheit.
