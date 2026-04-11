@@ -7,7 +7,7 @@ int main() {
     int i, j, n;
     
     //n=numero
-    //i=contra linha
+    //i=conta linha
     //j=quantidade * por linha
     
     cout << "Digite um número: ";
